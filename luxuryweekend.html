@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honymoonoffer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <!------nav-1-------->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img style="width: 150px;"src="orchid.avif"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              OUR HOTELS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index.html">Pune</a></li>
+              <li><a class="dropdown-item" href="">Mumbai</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="">Goa</a></li>
+            </ul>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="ecolets.html">ECOTELS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              OFFERS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="weddingoffer.html">WEDDING OFFER</a></li>
+              <li><a class="dropdown-item" href="honeymoon.html">HONEYMOON OFFER</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="luxuryweekend.html">LUXURY WEEKEND OFFER</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+              <!--Book now-->  
+      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div  class="modal-dialog modal-dialog-centered">
+         <!--Book NOw(1)-->
+          <div style="width: 1000px;height: 400px;" class="modal-content">
+            <div class="modal-header">
+              <h2 style="margin: 15px 0px 0px 0px">Location</h2>
+              <h2 style="margin: 15px 0px 5px 28%;">Hotel</h2>
+              
+                
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="loc">
+                <select style="width: 220px;height: 40px;border-color: #ea5241;" class="location">
+                  
+                  <option>Pune</option>
+                  <option>Mumabi</option>
+                  <option>Ayodhya</option>
+                  <option>Dapoli</option>
+                  <option>Goa</option>
+                  <option>Konark</option>
+                  <option>Lonavala</option>
+                  <option>Nashik</option>
+                  <option>Puri</option>
+                  <option>Shimala</option>
+                  <option>Sambhajinagar</option>
+                </select>
+                
+                <select style="width: 220px;margin: 0px 0px 0px 20px;height: 40px;border-color: #d05648;" class="hotel">
+                  
+                  <option>The Orchild Hotel Pune</option>
+                  <option>FortJadhavGadh-A Gadh Heritage Hotel</option>
+                  <option>Toyam by Orchild Hotels</option>
+                  
+                </select>
+          <!--Check in-->
+                <div style="margin: 20px 0px 0px 0px;" class="date-1">
+                  
+                  <label style="font-size: 30px;" for="date">Check-in:</label>
+                  <input style="width: 310px;height: 40px;border-color: #ea5241;" type="date">
+   
+                </div>
+  
+          <!--Check out-->
+                <div style="margin: 20px 0px 0px 0px;" class="date-1">
+                  
+                  <label style="font-size: 30px;" for="date">Check-out:</label>
+                  <input style="width: 290px;height: 40px;border-color: #ea5241;" type="date">
+   
+                </div>
+  
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button style="background-color:rgba(155, 75, 155, 0.9);color: white;margin: 10px 50px 0px 0px;" class="btn " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">BOOK NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+              <button  type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Hide this modal and show the first with the button below.
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button style="background-color:rgba(155, 75, 155, 0.9);color: white;margin: 10px 50px 0px 0px;" class="btn " data-bs-target="#exampleModalToggle" data-bs-toggle="modal"> BOOK NOW </button>
+      </div>
+    </div>
+  </nav>  <!---nav-2---->
+  <nav aria-label="Page navigation example ">
+    <ul style="background-color: rgba(155, 75, 155, 0.9);" class="pagination justify-content-center ">
+      <li class="page-item">
+        <a style="color: rgba(155, 75, 155, 0.9);" class="page-link" href="index.html">The Orchid Hotel Pune</a>
+      </li>
+      <li class="page-item"><a style="color: rgba(223, 31, 223, 0.9);"  class="page-link" href="room.html">Rooms</a></li>
+      <li class="page-item"><a style="color: rgba(223, 31, 223, 0.9);" class="page-link" href="restaurant.html">Restaurant</a></li>
+      <li class="page-item"><a style="color: rgba(223, 31, 223, 0.9);" class="page-link" href="location.html">Location</a></li>
+      <li class="page-item">
+        <a style="color: rgba(223, 31, 223, 0.9);" class="page-link" href="exclusive.html">Exclusive Offers</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--title(wedding)-->
+  <div style="margin: 30px 0px 30px 25%;" class="Orchild">
+    <h1 style="font-family: 'Cormorant Infant', serif;color: rgb(96, 83, 109);">Luxury Weekend Getways at the Orchild Hotels!</h1>
+  </div>
+  <div class="hon">
+    <img style="width: 1300px;margin:0px 0px 0px 8% ;height: 1100px;" src="lux.avif" >
+  </div>
+
+  <!--text-->
+  <div style="font-family: 'EB Garamond', sans-serif;margin: 5% 5% 0px 8%;color: #272727;font-size: 17px;" class="text">
+    <p>The Orchid Hotels and Resorts is among the top 10 honeymoon resorts in India which offer unravelled facilities and services. It is a luxury brand of hotels that offer honeymoon packages to make the stay of a merry couple even merrier!</p>
+  </div>
+
+
+   <!--Validity-->
+   <div class="valid">
+    <h1 style="font-family: 'EB Garamond', sans-serif;margin: 50px 0px 0px 46%;color: #272727;font-size:50px;">Validity</h1>
+  </div>
+
+   <!--validity(image)-->
+   <div style="background-color: #e9eaf0;margin: 2% 20px 0px 20px;" class="val-img">
+    <img style="margin: 3% 0px 20px 33%;" src="lux-valid.avif">
+   </div>
+ 
+      <!--Footer-->
+<div style="margin: 5% 0px 0px 0px;background-color:#434343" class="footer">
+  <h3 style="color:#ebdbd9;margin: 15px 0px 0px 35%;padding-top: 20px;">The Orchild Hotel Pune</h3>
+  <h4 style="color:#ebdbd9;margin: 15px 0px 0px 15%;">Pune-Banglore Road,Near Balewadi Sports Complex,Balewadi,Pune 411045</h4>
+  <h4 style="color:#ebdbd9;margin: 15px 0px 0px 33%;"><img src="inbox.png">  resv.pune@orchildhotel.com</h4>
+</div>
+
+
+  
+
+</body>
+</html>
+ 
